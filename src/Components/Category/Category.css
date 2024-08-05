@@ -1,0 +1,32 @@
+.category{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+}
+.category h1{
+    font-size: 2rem;
+    font-weight: bold;
+
+}.category-in{
+    margin-top: 50px;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.category-in-in{
+    height: 40vh;
+    width: 20%;
+    /* border: 2px solid black; */
+    border-radius: 15%;
+    flex-wrap: wrap;
+}
+.category-in-in img{
+    height:30vh;
+    border-radius: 15px;
+}

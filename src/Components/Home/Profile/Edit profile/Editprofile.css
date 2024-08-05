@@ -1,0 +1,61 @@
+.update-profile{
+    display: flex;
+}
+.profile-body h1{
+    display: flex;
+    align-items: start;
+    padding-left: 35px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px;
+    
+}
+.input-box input{
+    font-size: larger;
+    font-weight: bolder;
+    width: 90%;
+    height: 4px;
+    padding: 25px;
+    gap: 2px;
+    margin: 15px 35px;
+    border-radius: 20px;
+}
+
+.Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    box-shadow: 5px;
+    
+}
+.Btn :hover{
+    transition: 5ms;
+    background-color: brown;
+    transform: scale(1.1);
+}
+.Btn-submit :hover{
+    transition: 5ms;
+    color: brown;
+    transform: scale(1.1);
+}

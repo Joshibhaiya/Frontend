@@ -1,0 +1,64 @@
+.grid{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+    padding: 0px 15px;
+    
+}
+.card{
+    padding: 2em;
+    border: 1px solid #888;
+}
+.buy-now-btn{
+    display: flex;
+    justify-content: center;
+}
+.card button{
+    margin-top: 20px;
+    background-color: rgb(19, 218, 29);
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 20px;
+    box-shadow: 5px;
+}
+.card button:hover{
+    transition: 5ms;
+    transform: scale(1.05);
+}
+.card h2{
+    font-size: x-large;
+}
+.Shop-more-btn{
+    text-align: center;
+    margin: 10px;
+}
+.Shop-more-btn button{
+    background-color:rgb(43, 143, 224);
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: larger;
+    font-weight: 500;
+    color: aliceblue;
+}
+@media screen and (max-width: 520px) {
+    .grid{
+        display:flex;
+        flex-direction: column;
+    }
+    .card button{
+        box-shadow: 5px;
+        border-radius: 20px;
+    }
+    .card button:hover{
+        transition: 5ms;
+        transform: scale(1.05);
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+.user{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+   padding-top: 5%;
+    gap: 40px;
+    justify-content: center;
+    background-color: #f0ecec;
+    flex-wrap: wrap;
+    display: flexbox;
+
+}
+.left{
+    height: 80vh;
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 23px 7px rgb(172, 171, 171);
+    padding: 2%;
+    
+}
+
+.shipping{
+    font-size: 1.5rem;
+    font-weight: 600;
+    height:auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flexbox;
+   
+    padding-bottom: 20px;
+    display: flex;
+    
+    /* border: 2px solid black; */
+    
+   
+}
+
+.check-details{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+   /* border: 2px solid black; */
+    width: 100%;
+}
+#name ,#contact,#email{
+    height: 5vh;
+    display: flex;
+    width: 94%;
+    margin-top: 1%;
+
+}
+.address{
+    height: 31vh;
+    
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.address1{
+    height: 7vh;
+    
+    width: 94%;
+    display: flex;
+    gap: 20px;
+}
+
+#city,#district,#pincode,#state{
+    width: 100%;
+    margin-top: 1%;
+}
+.sub{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+  
+    justify-content: center;
+}
+#sub{
+    padding-top: 10px ;
+    height: 5vh;
+    width: auto;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+.order{
+    height: 60vh;
+    width: 30%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 23px 7px rgb(172, 171, 171);
+}
+@media screen and (max-width: 520px) {
+    .left {
+        width: 95%;
+    }
+    .order {
+        width: 95%;
+    }
+    #sub {
+        width: 50%;
+        font-size: smaller;
+    }
+    .address1{
+        width: auto;
+
+    }
+    .shipping{
+        font-size: large;
+
+    }
+    .address {
+        font-size: small;
+        
+        
+    }
+
+}

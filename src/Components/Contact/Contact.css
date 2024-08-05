@@ -1,0 +1,121 @@
+.contact{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    /* border: 2px solid black; */
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.contact-us{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+      flex-wrap: wrap;
+    box-shadow: 0cqmax;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.contact-form{
+    margin-bottom: 10px;
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    /* border: 2px solid black; */
+    flex-direction: column;
+}.contact-form h1{
+    font-size: 1.5rem;
+    
+    margin-top: 10%;
+}
+#contact-email, #contact-message{
+    /* border: 1px solid rgb(46, 45, 45); */
+    
+    width: 60%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 5%;
+    height: 10%;
+    padding-left: 5%;
+}
+
+
+
+#contact-btn{
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    margin-top: 10%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    
+}
+.contact-detail{
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    box-shadow: 50px;
+    
+    /* border: 2px solid black; */
+    
+    
+    flex-direction: column;
+    
+}
+.contact-address, .contact-talk, .contact-support{
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left:10% ;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.contact-icon{
+    font-size: 1.9;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 5%;
+    gap: 10px;
+    
+}
+.contact-map{
+    /* height: 500px;
+    width: 1520px; */
+    border: 2px solid black;
+    display: flexbox;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.contact-maps{
+    height: 500px;
+    width: 1520px;
+}
+
+@media screen and (max-width: 520px) {
+    .contact-form, .contact-detail {
+        width: 80%; 
+    }
+    #contact-email, #contact-message, #contact-btn {
+        width: 100%; 
+    }
+    .contact-maps {
+
+        height:15%; 
+        width: 100%;
+    }
+}
+    
+
+
