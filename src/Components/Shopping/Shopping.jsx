@@ -66,7 +66,7 @@ const Shop = () => {
               <p>{product.description}</p>
               <div className="shopping-buy-now-btn">
                  <Link to={`/buy/${product._id}`}>
-              <button>Buy Now</button>
+              <button>Buy  Now</button>
               </Link></div>
             </div>   
         ))}
